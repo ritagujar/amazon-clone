@@ -67,3 +67,36 @@
   margin-right: 10px;
   color: white;
 }
+
+@media only screen and (max-width: 530px) {
+  .header__logo {
+    padding-left: 0;
+    width: 70px;
+  }
+
+  .header__optionLineOne {
+    font-size: 9px;
+  }
+
+  .header__optionLineTwo {
+    font-size: 11px;
+  }
+
+  .header__searchInput {
+    height: 8px;
+  }
+
+  .header__searchIcon {
+    height: 19px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header__optionLineOne {
+    font-size: 9px;
+  }
+
+  .header__optionLineTwo {
+    font-size: 9px;
+  }
+}
