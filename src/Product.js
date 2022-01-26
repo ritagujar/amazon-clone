@@ -28,6 +28,9 @@ function Product({ id, title, image, price, rating }) {
           <strong>{price}</strong>
         </p>
         <div className="product__rating">
+          {/* It will create an empty array of "rating(number we are passing)" and then map through it
+            and will return the <p> tag that (rating) number of times.
+          */}
           {Array(rating)
             .fill()
             .map((_, i) => (
